@@ -88,6 +88,18 @@ td.thanks      { border:1px solid #cc0000; }
   filter:contrast(1.05);
 }
 .topbanner .title .slash{color:#7a1c1c; margin:0 6px;}
+.topbanner .title img.war-logo{
+  height:90px; width:auto; vertical-align:middle;
+  margin-left:14px;
+  filter:drop-shadow(0 0 12px #5a0000);
+}
+.cover-logo{
+  display:block;
+  width:340px; height:258px;
+  background:#000 center/contain no-repeat url("img/war-logo.png");
+  border:1px solid #2a2a2a;
+}
+.cover-logo.small{ width:220px; height:220px; }
 .topbanner .subtitle{
   position:absolute;
   left:0; right:0; top:84px;
